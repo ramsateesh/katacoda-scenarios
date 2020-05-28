@@ -4,8 +4,28 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Docker Images",
-        "text": "step1.md"
+        "title": "Docker Containers",
+        "text": "containers.md"
+      },
+      {
+        "title": "Exposing your app on a Port",
+        "text": "ports.md"
+      },
+      {
+        "title": "Environment Variables",
+        "text": "environment.md"
+      },
+      {
+        "title": "Docker Images",
+        "text": "images.md"
+      },
+      {
+        "title": "Dockerfile",
+        "text": "dockerfile.md"
+      },
+      {
+        "title": "Securing Docker Containers",
+        "text": "security.md"
       }
     ],
     "intro": {
