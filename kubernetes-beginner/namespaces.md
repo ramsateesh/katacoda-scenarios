@@ -1,5 +1,3 @@
-# Namespaces
-
 In this section we will see how to create/update/delete/list namespaces.
 
 ## Create a namespace using yaml and cli

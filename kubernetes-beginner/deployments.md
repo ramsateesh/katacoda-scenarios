@@ -1,5 +1,3 @@
-# Deployments
-
 In this section we will see how to create/update/delete/list deployments.
 
 ## Create a Deployment using yaml

@@ -1,1 +1,1 @@
-cd /root/tutorial/configmaps;
+cd /root/k8s-tutorial/configmaps;

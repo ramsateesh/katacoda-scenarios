@@ -1,5 +1,3 @@
-# Pods
-
 In this section we will see how to create/update/delete/list pods.
 
 ## Create a pod using yaml

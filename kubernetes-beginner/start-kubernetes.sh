@@ -1,4 +1,4 @@
-mkdir -p /root/tutorial/; cd /root/tutorial/; 
+cd /root; 
 
 git clone https://github.com/ramsateesh/k8s-tutorial.git
 
