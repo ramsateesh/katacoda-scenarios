@@ -27,11 +27,6 @@
         "title": "ConfigMaps",
         "text": "configmaps.md",
         "code": "configmaps.sh"
-      },
-      {
-        "title": "Secrets",
-        "text": "secrets.md",
-        "code": "secrets.sh"
       }
     ],
     "intro": {
