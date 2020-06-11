@@ -33,8 +33,7 @@
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "codeData": "background.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
