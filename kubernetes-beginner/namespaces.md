@@ -28,4 +28,6 @@ kubectl get namespace test-namespace -o json
 
 ```
 kubectl delete -f create-namespace.yaml
+
+kubectl delete ns test-namespace
 ```
