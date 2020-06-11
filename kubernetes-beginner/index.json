@@ -25,11 +25,6 @@
         "title": "Deployments",
         "text": "deployments.md",
         "code": "deployments.sh"
-      },
-      {
-        "title": "ConfigMaps",
-        "text": "configmaps.md",
-        "code": "configmaps.sh"
       }
     ],
     "intro": {
