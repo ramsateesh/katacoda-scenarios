@@ -5,8 +5,7 @@
     "steps": [
       {
         "title": "Namespaces",
-        "text": "namespaces.md",
-        "code": "namespaces.sh"
+        "text": "namespaces.md"
       },
       {
         "title": "Pods",
