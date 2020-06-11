@@ -16,7 +16,7 @@
       {
         "title": "Services",
         "text": "services.md",
-        "code": "servicess.sh"
+        "code": "services.sh"
       },
       {
         "title": "Deployments",
