@@ -1,6 +1,6 @@
 {
-  "title": "Docker for Beginner",
-  "description": "A beginner course to play around with Docker",
+  "title": "Kubernetes for Beginner",
+  "description": "A beginner course to play around with Kubernetes",
   "details": {
     "steps": [
       {
