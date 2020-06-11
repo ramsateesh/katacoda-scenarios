@@ -4,12 +4,39 @@
   "details": {
     "steps": [
       {
+        "title": "Namespaces",
+        "text": "namespaces.md",
+        "code": "namespaces.sh"
+      },
+      {
         "title": "Pods",
-        "text": "pods.md"
+        "text": "pods.md",
+        "code": "pods.sh"
+      },
+      {
+        "title": "Services",
+        "text": "services.md",
+        "code": "servicess.sh"
+      },
+      {
+        "title": "Deployments",
+        "text": "deployments.md",
+        "code": "deployments.sh"
+      },
+      {
+        "title": "ConfigMaps",
+        "text": "configmaps.md",
+        "code": "configmaps.sh"
+      },
+      {
+        "title": "Secrets",
+        "text": "secrets.md",
+        "code": "secrets.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "code": "start-kubernetes.sh"
     },
     "finish": {
       "text": "finish.md"
