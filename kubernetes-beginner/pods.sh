@@ -1,1 +1,1 @@
-cd /root/tutorial/pods;
+cd /root/k8s-tutorial/pods;

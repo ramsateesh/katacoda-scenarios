@@ -1,1 +1,1 @@
-cd /root/tutorial/deployments;
+cd /root/k8s-tutorial/deployments;

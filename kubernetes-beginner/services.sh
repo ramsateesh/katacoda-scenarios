@@ -1,1 +1,1 @@
-cd /root/tutorial/services;
+cd /root/k8s-tutorial/services;
