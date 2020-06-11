@@ -17,9 +17,9 @@ kubectl get pods -n test-namespace
 ## Show pod
 
 ```
-kubectl -n test-namespace get pod/nginx test-namespace -o yaml
+kubectl -n test-namespace get pod/nginx -o yaml
 
-kubectl -n test-namespace get pod/nginx test-namespace -o json
+kubectl -n test-namespace get pod/nginx -o json
 ```
 
 ## Delete pod

@@ -17,9 +17,9 @@ kubectl get deployments -n test-namespace
 ## Show Deployment
 
 ```
-kubectl -n test-namespace get deployment/nginx-deploy test-namespace -o yaml
+kubectl -n test-namespace get deployment/nginx-deploy -o yaml
 
-kubectl -n test-namespace get deployment/nginx-deploy test-namespace -o json
+kubectl -n test-namespace get deployment/nginx-deploy -o json
 ```
 
 ## Update Deployment

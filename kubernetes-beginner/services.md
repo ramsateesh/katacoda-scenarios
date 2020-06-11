@@ -15,9 +15,9 @@ kubectl get deployments -n test-namespace
 ## Show Service
 
 ```
-kubectl get service/nginx-service test-namespace -o yaml
+kubectl get service/nginx-service -o yaml
 
-kubectl get service/nginx-service test-namespace -o json
+kubectl get service/nginx-service -o json
 ```
 
 ## Update Service
