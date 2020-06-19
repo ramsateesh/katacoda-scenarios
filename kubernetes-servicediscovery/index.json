@@ -7,9 +7,7 @@
         {"file": "pod.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "deployment.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"}
+        {"file": "configmap.yaml", "target": "/root/tutorials/k8s-service-discovery"}
       ]
     },
     "steps": [
@@ -43,7 +41,8 @@
     }
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/tutorials/k8s-service-discovery"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
