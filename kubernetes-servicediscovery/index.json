@@ -1,0 +1,51 @@
+{
+  "title": "Kubernetes - Service Discovery",
+  "description": "A beginner course to play around with Kubernetes",
+  "details": {
+    "assets": {
+      "host01": [
+        {"file": "pod.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "deployment.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "wait.sh", "target": "/root/tutorials/k8s-service-discovery"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Setup",
+        "text": "setup.md"
+      },
+      {
+        "title": "Setup Namespaces",
+        "text": "namespaces.md"
+      },
+      {
+        "title": "Pods",
+        "text": "pods.md"
+      },
+      {
+        "title": "Deployments",
+        "text": "deployments.md"
+      },
+      {
+        "title": "Services",
+        "text": "services.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "courseData": "background.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal"
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
