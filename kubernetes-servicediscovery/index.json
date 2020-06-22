@@ -4,32 +4,26 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "pod.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "namespace.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "static-pod.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "deployment.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "configmap.yaml", "target": "/root/tutorials/k8s-service-discovery"}
+        {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"}
+        {"file": "service-cde.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "service-leadgen.yaml", "target": "/root/tutorials/k8s-service-discovery"}
       ]
     },
     "steps": [
       {
-        "title": "Setup",
-        "text": "setup.md"
+        "title": "Recap",
+        "text": "recap.md"
       },
       {
-        "title": "Setup Namespaces",
-        "text": "namespaces.md"
+        "title": "Service in CDE space",
+        "text": "service-cde.md"
       },
       {
-        "title": "Pods",
-        "text": "pods.md"
-      },
-      {
-        "title": "Deployments",
-        "text": "deployments.md"
-      },
-      {
-        "title": "Services",
-        "text": "services.md"
+        "title": "Service in Leadgen space",
+        "text": "service-leadgen.md"
       }
     ],
     "intro": {
