@@ -39,4 +39,9 @@ See what has been created
 `kubectl -n test-namespace get all`{{execute}}
 
 ### Cleanup
+
+Let's clean up before we move on to service discovery
+
 `kubectl -n test-namespace delete -l app=nginx `{{execute}}
+
+`kubectl delete namespace test-namespace`{{execute}}
