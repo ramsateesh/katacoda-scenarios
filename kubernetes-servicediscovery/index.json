@@ -1,6 +1,6 @@
 {
   "title": "Kubernetes - Service Discovery",
-  "description": "A beginner course to play around with Kubernetes",
+  "description": "Service Discovery in Kubernetes",
   "details": {
     "assets": {
       "host01": [
