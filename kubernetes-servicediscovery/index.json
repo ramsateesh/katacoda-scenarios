@@ -7,7 +7,7 @@
         {"file": "namespace.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "static-pod.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "deployment.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"}
+        {"file": "service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "service-cde.yaml", "target": "/root/tutorials/k8s-service-discovery"},
         {"file": "service-leadgen.yaml", "target": "/root/tutorials/k8s-service-discovery"}
       ]
