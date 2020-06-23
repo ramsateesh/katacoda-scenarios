@@ -3,8 +3,8 @@ Let's create leadgen service
 Below command creates following:
 
 * Namespace (leadgen)
-* Deployment (api-guid-generator)
-* Service (api-guid-svc)
+* Deployment (app-deployment)
+* Service (app)
 * Static pod (explorer)
 
 `kubectl apply -f service-leadgen.yaml`{{execute}}
@@ -23,8 +23,8 @@ Verify that the service is up and running
 
 curl service
 
-`curl -X GET http://api-guid-svc:8080`{{execute}}
+`curl -X GET http://app:8080/ShowEnv`{{execute}}
 
-`curl -X GET http://api-guid-svc.leadgen:8080`{{execute}}
+`curl -X GET http://app.leadgen:8080/ShowEnv`{{execute}}
 
 `exit`{{execute}}

@@ -17,6 +17,7 @@ We created a static pod with the below command.
 We created a service for our static-pod with the below command.
 
 `kubectl apply -f service.yaml`{{execute}}
+
 `kubectl -n test-namespace get svc`{{execute}}
 
 ### Cleanup Static-Pod and Service

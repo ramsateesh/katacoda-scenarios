@@ -9,32 +9,36 @@ metadata:
 apiVersion: apps/v1 
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: api-deployment
   namespace: cde
+  labels:
+    component: api
 spec:
   selector:
     matchLabels:
-        app: nginx
+        component: api
   replicas: 2 # tells deployment to run 2 pods matching the template
   template:
     metadata:
       labels:
-        app: nginx
+        component: api
     spec:
       containers:
-      - name: nginx
-        image: nginx:1.14.2
+      - name: api-container
+        image: avishnyakov/k8s-api-guid-generator:latest
         ports:
         - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx
+  name: api
   namespace: cde
+  label:
+    component: api
 spec:
   selector:
-    app: nginx
+    component: api
   ports:
     - protocol: TCP
       port: 8080
@@ -46,7 +50,7 @@ metadata:
   name: explorer
   namespace: cde
   labels:
-    app: explorer
+    component: api
 spec:
   containers:
   - name: ubuntu
