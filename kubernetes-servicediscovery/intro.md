@@ -1,5 +1,3 @@
-Welcome to the beginner's course on Kubernetes @ Prospa
-
-![Katacoda Logo](./assets/logo-text-with-head.png)
+Welcome to Service Discovery in Kubernetes @ Prospa
 
   -- by Ram T and Anton V

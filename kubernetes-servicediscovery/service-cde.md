@@ -1,5 +1,7 @@
 Let's create cde service
 
+![CDE](./assets/cde.png)
+
 Below command creates following:
 
 * Namespace (cde)
@@ -22,17 +24,3 @@ Wait until all pods get created
 Let's monitor the logs for cde is a new terminal
 
 `kubectl logs -f -n cde -l component=api --all-containers=true`{{execute T2}}
-
-### Test api Service
-
-exec to explorer pod to test our service
-
-`kubectl -n cde exec -it explorer -c explorer -- bash`{{execute interrupt}}
-
-curl service
-
-`curl -X GET http://api:8080/api/guid`{{execute}}
-
-`curl -X GET http://api.cde:8080/api/guid`{{execute}}
-
-`exit`{{execute}}

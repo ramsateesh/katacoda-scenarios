@@ -24,6 +24,10 @@
       {
         "title": "Service in Leadgen space",
         "text": "service-leadgen.md"
+      },
+      {
+        "title": "Service Discovery",
+        "text": "service-discovery.md"
       }
     ],
     "intro": {

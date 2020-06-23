@@ -1,5 +1,7 @@
 Let's create leadgen service
 
+![CDE](./assets/leadgen.png)
+
 Below command creates following:
 
 * Namespace (leadgen)
@@ -22,19 +24,3 @@ Wait until all pods get created
 Let's monitor the logs for leadgen is a new terminal
 
 `kubectl logs -f -n leadgen -l component=app --all-containers=true`{{execute T3}}
-
-### Test app Service
-
-exec to explorer to test our app service in leadgen
-
-`kubectl -n leadgen exec -it explorer -c explorer -- bash`{{execute interrupt}}
-
-curl app service
-
-`curl -X GET http://app:8080/ShowEnv`{{execute}}
-
-`curl -X GET http://app.leadgen:8080/ShowEnv`{{execute}}
-
-`curl -X GET http://app.leadgen:8080/ShowGuid`{{execute}}
-
-`exit`{{execute}}
