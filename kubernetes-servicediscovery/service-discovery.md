@@ -2,7 +2,7 @@ Let's explore service discovery
 
 ![CDE](./assets/service-discovery.png)
 
-### Test api Service
+## Test api Service
 
 exec to explorer pod to test our service
 
@@ -16,7 +16,7 @@ curl service
 
 `exit`{{execute}}
 
-### Test app Service
+## Test app Service
 
 exec to explorer to test our app service in leadgen
 

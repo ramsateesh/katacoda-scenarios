@@ -19,7 +19,7 @@ Wait until all pods get created
 
 `kubectl -n leadgen get pods -o wide -w`{{execute}}
 
-###Logs
+## Logs
 
 Let's monitor the logs for leadgen is a new terminal
 

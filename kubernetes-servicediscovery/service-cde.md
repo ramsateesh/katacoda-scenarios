@@ -19,7 +19,7 @@ Wait until all pods get created
 
 `kubectl -n cde get pods -o wide -w`{{execute}}
 
-###Logs
+## Logs
 
 Let's monitor the logs for cde is a new terminal
 
