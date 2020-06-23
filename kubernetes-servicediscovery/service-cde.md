@@ -21,13 +21,13 @@ Wait until all pods get created
 
 Let's monitor the logs for cde is a new terminal
 
-`kubectl logs -f -n cde -l component=api --all-containers=true`{{copy}}
+`kubectl logs -f -n cde -l component=api --all-containers=true`{{execute T2}}
 
 ### Test api Service
 
 exec to explorer pod to test our service
 
-`kubectl -n cde exec -it explorer -c explorer -- bash`{{interrupt}}
+`kubectl -n cde exec -it explorer -c explorer -- bash`{{execute interrupt}}
 
 curl service
 
