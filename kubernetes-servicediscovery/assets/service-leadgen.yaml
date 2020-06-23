@@ -37,7 +37,7 @@ kind: Service
 metadata:
   name: app
   namespace: leadgen
-  label:
+  labels:
     component: app
 spec:
   selector:
@@ -56,6 +56,6 @@ metadata:
     component: explorer
 spec:
   containers:
-  - name: ubuntu
-    image: ubuntu
+  - name: explorer
+    image: dolphm/network-tools
     command: ["/bin/sh", "-c", "sleep 3600;"]

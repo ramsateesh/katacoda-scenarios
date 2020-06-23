@@ -34,7 +34,7 @@ kind: Service
 metadata:
   name: api
   namespace: cde
-  label:
+  labels:
     component: api
 spec:
   selector:
@@ -53,6 +53,6 @@ metadata:
     component: explorer
 spec:
   containers:
-  - name: ubuntu
-    image: ubuntu
+  - name: explorer
+    image: dolphm/network-tools
     command: ["/bin/sh", "-c", "sleep 3600;"]
