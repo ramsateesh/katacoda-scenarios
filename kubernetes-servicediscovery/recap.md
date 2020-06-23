@@ -11,6 +11,7 @@ We created a namespace in which we can work.
 We created a static pod with the below command.
 
 `kubectl apply -f static-pod.yaml`{{execute}}
+
 `kubectl -n test-namespace get pods`{{execute}}
 
 ### Service
