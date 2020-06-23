@@ -25,7 +25,7 @@ spec:
     spec:
       containers:
       - name: app-container
-        image: app-container
+        image: avishnyakov/k8s-app-guid:latest
         env:
           - name: API_URL
             value: "http://api.cde:8080"
@@ -53,7 +53,7 @@ metadata:
   name: explorer
   namespace: leadgen
   labels:
-    component: app
+    component: explorer
 spec:
   containers:
   - name: ubuntu

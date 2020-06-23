@@ -50,7 +50,7 @@ metadata:
   name: explorer
   namespace: cde
   labels:
-    component: api
+    component: explorer
 spec:
   containers:
   - name: ubuntu

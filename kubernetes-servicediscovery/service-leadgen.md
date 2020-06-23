@@ -15,16 +15,26 @@ See what got created
 
 Wait until all pods get created
 
-`kubectl -n leadgen get pods`{{execute}}
+`kubectl -n leadgen get pods -o wide -w`{{execute}}
 
-Verify that the service is up and running
+###Logs
+
+Let's monitor the logs for leadgen is a new terminal
+
+`kubectl logs -f -n leadgen -l component=app --all-containers=true`{{copy}}
+
+### Test app Service
+
+exec to explorer to test our app service in leadgen
 
 `kubectl -n leadgen exec -it explorer -c explorer -- bash`{{interrupt}}{{execute}}
 
-curl service
+curl app service
 
 `curl -X GET http://app:8080/ShowEnv`{{execute}}
 
 `curl -X GET http://app.leadgen:8080/ShowEnv`{{execute}}
+
+`curl -X GET http://app.leadgen:8080/ShowGuid`{{execute}}
 
 `exit`{{execute}}

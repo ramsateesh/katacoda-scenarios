@@ -15,19 +15,20 @@ See what got created
 
 Wait until all pods get created
 
-`kubectl -n cde get pods`{{execute}}
-
-Verify that the service is up and running
-
-`kubectl -n cde exec -it explorer -c explorer -- bash`{{interrupt}}{{execute}}
+`kubectl -n cde get pods -o wide -w`{{execute}}
 
 ###Logs
 
 Let's monitor the logs for cde is a new terminal
 
-`kubectl -n cde logs -f $API_POD_1`{{copy}}
+`kubectl logs -f -n cde -l component=api --all-containers=true`{{copy}}
+
 
 ### Test api Service
+
+exec to explorer pod to test our service
+
+`kubectl -n cde exec -it explorer -c explorer -- bash`{{interrupt}}{{execute}}
 
 curl service
 
