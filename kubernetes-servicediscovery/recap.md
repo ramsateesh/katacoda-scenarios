@@ -21,7 +21,7 @@ We created a service for our static-pod with the below command.
 
 ### Cleanup Static-Pod and Service
 
-`kubectl -n test-namespace delete -l app=nginx `{{execute}}
+`kubectl -n test-namespace delete all -l app=nginx `{{execute}}
 
 ### Deployment
 We created a deployment with the below command.
@@ -42,6 +42,6 @@ See what has been created
 
 Let's clean up before we move on to service discovery
 
-`kubectl -n test-namespace delete -l app=nginx `{{execute}}
+`kubectl -n test-namespace delete all -l app=nginx `{{execute}}
 
 `kubectl delete namespace test-namespace`{{execute}}

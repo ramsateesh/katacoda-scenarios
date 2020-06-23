@@ -4,6 +4,8 @@ kind: Deployment
 metadata:
   name: nginx-deployment
   namespace: test-namespace
+  labels:
+    app: nginx
 spec:
   selector:
     matchLabels:
