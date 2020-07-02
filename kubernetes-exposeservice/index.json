@@ -1,0 +1,47 @@
+{
+  "title": "Kubernetes - Exposing Service(s)",
+  "description": "Exposing Service(s) in Kubernetes",
+  "details": {
+    "assets": {
+      "host01": [
+        {"file": "service-cde.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "service-leadgen.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "nodeport-api-service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "nodeport-app-service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
+        {"file": "ingress.yaml", "target": "/root/tutorials/k8s-service-discovery"}
+      ]
+    },
+    "steps": [
+      {
+        "title": "Recap",
+        "text": "recap.md"
+      },
+      {
+        "title": "Expose your service with NodePort",
+        "text": "nodeport-service.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "editor-terminal",
+    "uieditorpath": "/root/tutorials/k8s-service-discovery",
+    "showdashboard": true,
+    "dashboards": [
+      {"name": "Access api through Ingress", "href": "https://[[HOST_SUBDOMAIN]]-30070-[[KATACODA_HOST]].environments.katacoda.com/api/guid"},
+      {"name": "Access app through Ingress", "href": "https://[[HOST_SUBDOMAIN]]-30070-[[KATACODA_HOST]].environments.katacoda.com/ShowGuid"},
+      {"name": "Access api through NodePort", "href": "http://[[HOST_SUBDOMAIN]]-30081-[[KATACODA_HOST]].environments.katacoda.com/cde/api/guid"},
+      {"name": "Access app through NodePort", "href": "http://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com/leadgen/ShowGuid"}
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-cluster-running:1.18"
+  }
+}
