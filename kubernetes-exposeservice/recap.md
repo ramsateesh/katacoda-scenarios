@@ -12,7 +12,9 @@ See what got created
 
 Wait until all pods get created
 
-`kubectl -n cde get pods -o wide -w`{{execute}}
+`kubectl -n cde get pods -o wide`{{execute}}
+
+`clear`{{execute}}
 
 We created leadgen service
 
@@ -26,4 +28,6 @@ See what got created
 
 Wait until all pods get created
 
-`kubectl -n leadgen get pods -o wide -w`{{execute}}
+`kubectl -n leadgen get pods -o wide`{{execute}}
+
+`clear`{{execute}}
