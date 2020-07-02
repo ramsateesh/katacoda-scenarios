@@ -38,7 +38,7 @@
   },
   "environment": {
     "uilayout": "editor-terminal",
-    "uieditorpath": "/root/tutorials/k8s-service-discovery"
+    "uieditorpath": "/root/tutorials/k8s-expose-service"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
