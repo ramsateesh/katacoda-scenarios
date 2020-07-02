@@ -1,3 +1,7 @@
+Exploring Ingress Crontroller
+
+![CDE](./assets/ingress.png)
+
 Let's create our ingress controller
 
 `kubectl apply -f ingress.yaml`{{execute}}
