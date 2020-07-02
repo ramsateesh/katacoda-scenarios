@@ -16,7 +16,7 @@ Let's explore service discovery
 
 `CDE_NP=30081`{{execute}}
 
-`curl -H 'Host: cde.prospa.com' http://$HOST_IP/api/guid`{{execute}}
+`curl -X GET http://$HOST_IP:$CDE_NP/api/guid`{{execute}}
 
 `clear`{{execute}}
 
@@ -26,10 +26,10 @@ Let's explore service discovery
 
 `kubectl -n leadgen get svc`{{execute}}
 
-`LEADGEN_NP=30081`{{execute}}
+`LEADGEN_NP=30080`{{execute}}
 
 `clear`{{execute}}
 
-`curl -H 'Host: leadgen.prospa.com' http://$HOST_IP:$LEADGEN_NP/ShowGuid`{{execute}}
+`curl -X GET http://$HOST_IP:$LEADGEN_NP/ShowGuid`{{execute}}
 
 `clear`{{execute}}

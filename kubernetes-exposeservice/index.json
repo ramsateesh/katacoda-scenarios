@@ -4,13 +4,13 @@
   "details": {
     "assets": {
       "host01": [
-        {"file": "service-cde.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "service-leadgen.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "nodeport-api-service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "nodeport-app-service.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "cde-ingress-rule.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "leadgen-ingress-rule.yaml", "target": "/root/tutorials/k8s-service-discovery"},
-        {"file": "ingress.yaml", "target": "/root/tutorials/k8s-service-discovery"}
+        {"file": "service-cde.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "service-leadgen.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "nodeport-api-service.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "nodeport-app-service.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "cde-ingress-rule.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "leadgen-ingress-rule.yaml", "target": "/root/tutorials/k8s-expose-service"},
+        {"file": "ingress.yaml", "target": "/root/tutorials/k8s-expose-service"}
       ]
     },
     "steps": [
@@ -21,6 +21,10 @@
       {
         "title": "Expose your service with NodePort",
         "text": "nodeport-service.md"
+      },
+      {
+        "title": "Expose your service with Ingress",
+        "text": "ingress.md"
       }
     ],
     "intro": {
